@@ -1,0 +1,6 @@
+#celcius to fahrenheit
+celcius = float(input("Enter temprature in celcius"))
+
+fahr = (celcius * 9/5)+32
+
+print("Temperature in Fahrenheit is: ", fahr)
