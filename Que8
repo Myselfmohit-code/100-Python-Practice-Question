@@ -1,0 +1,8 @@
+num = int(input("Enter a three digits number: "))
+
+hundreds = num // 100
+tens = (num // 10) % 10
+ones = num % 10
+
+sum_of_digits = hundreds + tens + ones
+print(f"The sum of the digits of {num} is: {sum_of_digits}")
