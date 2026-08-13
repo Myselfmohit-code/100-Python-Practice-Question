@@ -1,0 +1,6 @@
+def cube (x):
+    return x ** 3
+
+num = 10
+result = cube(num)
+print('cube of ', num, 'is', result)
