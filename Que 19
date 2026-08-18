@@ -1,0 +1,8 @@
+num = int(input("Enter your number"))
+
+if(num > 90):
+    print("A grade")
+elif(num > 60):
+    print("B grade")
+else:
+    print("C grade")
