@@ -1,0 +1,21 @@
+a = float(input("enter the number a = "))
+b = float(input("enter the number b = "))
+
+choice = input("enter the operation you want to perform: ")
+
+
+if (choice == "1"):
+    print("The sum of a and b is:", a + b)
+
+elif(choice == "2"):
+    print("The difference of a and b is:", a - b)           
+
+elif(choice == "3"):    
+    print("The product of a and b is:", a * b)  
+
+elif(choice == "4"):
+    print("The division of a and b is:", a / b) 
+
+elif(choice == "5"):
+    print("The modulus of a and b is:", a % b)           
+
