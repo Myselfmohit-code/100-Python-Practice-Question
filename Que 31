@@ -1,1 +1,8 @@
-u
+num = 10
+
+Sum_even = 0
+
+for i in range (1, num+1):
+    if i % 2 ==0:
+        Sum_even += 1
+print(Sum_even)         
